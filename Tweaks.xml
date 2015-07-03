@@ -310,9 +310,6 @@
   <tweak category="Change system sounds" name="Low battery" type="input">
     <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EventSounds\Sounds\Lowbattery" name="Sound" type="string"/>
   </tweak>
-  
-   <tweak category="FOR TEST" name="Low battery" type="input">
-    <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EventSounds\Sounds\Lowbattery" name="Sound" type="string"/>
-  </tweak>
+
   
 </tweaks>
