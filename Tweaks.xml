@@ -317,7 +317,7 @@
   
    <tweak category="MTP" name="SD Card name" type="input">
     <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MTP" name="MTPSDName" type="string"/>
-  </tweak
+  </tweak>
   
   <tweak category="MTP" name="Phone icon in Windows Explorer" type="input">
     <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MTP" name="OEMICON" type="string"/>
