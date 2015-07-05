@@ -310,6 +310,14 @@
   <tweak category="Change system sounds" name="Low battery" type="input">
     <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EventSounds\Sounds\Lowbattery" name="Sound" type="string"/>
   </tweak>
+  
+  <tweak category="MTP" name="Phone name" type="input">
+    <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MTP" name="MTPStorageName" type="string"/>
+  </tweak>
+  
+   <tweak category="MTP" name="SD Card name" type="input">
+    <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MTP" name="MTPSDName" type="string"/>
+  </tweak>
 
   
 </tweaks>
