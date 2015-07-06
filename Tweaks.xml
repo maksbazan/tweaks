@@ -323,4 +323,11 @@
     <entry path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MTP" name="OEMICON" type="string"/>
   </tweak>
   
+  <tweak category="Misc" name="Add Search Provider: DuckDuckGo" type="toggle">
+    <entry path="HKCU\Software\Microsoft\Internet Explorer\SearchProviders\DuckDuckGo" name="DisplayName" type="string" default="">
+        <value>DuckDuckGo</value>
+    <entry path="HKCU\Software\Microsoft\Internet Explorer\SearchProviders\DuckDuckGo" name="Url" type="string" default="">
+        <value>https://duckduckgo.com/?q={searchTerms}</value>
+  </tweak>
+  
 </tweaks>
